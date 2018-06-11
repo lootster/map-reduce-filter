@@ -8,4 +8,4 @@ Instructions
 
 ---
 
-[solution]: https://github.com/thoughtworks-jumpstart/map-reduce-filter
+[solution]: https://github.com/thoughtworks-jumpstart/map-reduce-filter/tree/solution
