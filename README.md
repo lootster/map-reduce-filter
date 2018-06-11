@@ -1,8 +1,11 @@
 # Having fun with `map` `reduce` and `filter`
 
+**This is the solution**. [See the original without the solution here][master].
+
 Instructions
 - Complete exercises in the .html files
 - Instructions are in the html files 
 
 ---
-Copyright (c) 2018 ThoughtWorks. For personal use and training purposes only; not to be copied or distributed without further approval.
+
+[master]: https://github.com/thoughtworks-jumpstart/map-reduce-filter  
