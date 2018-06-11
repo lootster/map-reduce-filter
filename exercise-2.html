@@ -31,8 +31,6 @@
 
 <script>
   // Select all the list items on the page and convert to array
-	const items = Array.from(document.querySelectorAll('[data-time]'))
-
   // Filter for only the elements that contain the word 'flexbox'
 
   // map down to a list of time strings
@@ -43,6 +41,13 @@
 
   // 🔥 This can also be done in a single .reduce(), but we're practicing
   // higher order functions here, so chain them!
+  const sum = Array.from(document.querySelectorAll('[data-time]'))
+    .filter(item => item.textContent.indexOf('Flexbox') > -1)
+    .map(item => item.getAttribute('data-time'))
+    .map(item => Number(item.split(':')[1])) // [17, 22, 34, …]
+    .reduce((a, b) => a + b);
+
+  console.log('sum is', sum);
 </script>
 </body>
 </html>
